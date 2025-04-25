@@ -1,0 +1,33 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: 20px 0;
+    background-color: #000;
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    gap: 0.4rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.footer-div p {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 10px;
+}
+
+.footer-div p img {
+    width: 2rem;
+    vertical-align: middle;
+}
